@@ -59,7 +59,7 @@
                <imageName>lucene-sample</imageName>
                <mainClass>org.infinispan.App</mainClass>
                <buildArgs>
-                  --no-fallback --verbose -H:GenerateDebugInfo=1
+                  --no-fallback --verbose -H:GenerateDebugInfo=1 --native-image-info
                </buildArgs>
             </configuration>
          </plugin>
